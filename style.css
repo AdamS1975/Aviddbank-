@@ -1,4 +1,45 @@
-
-body { font-family: Arial; background: #f4f4f4; padding: 20px; }
-.login-container { background: white; padding: 20px; max-width: 400px; margin: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-input, button { display: block; width: 100%; margin-top: 10px; padding: 10px; }
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: #003366;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.login-container, .dashboard, .page {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+form input, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.8em;
+    font-size: 1em;
+}
+form button {
+    background: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.chart {
+    margin-top: 2em;
+    background: #eef;
+    padding: 1em;
+    text-align: center;
+    border-radius: 4px;
+}
