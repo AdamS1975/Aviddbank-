@@ -1,0 +1,61 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #002244;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+.login-container {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.login-form {
+  display: inline-block;
+  text-align: left;
+}
+
+.login-form input {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 200px;
+}
+
+.login-form button {
+  background-color: #002244;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.quick-actions button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #004488;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.transaction-list {
+  list-style-type: none;
+  padding-left: 0;
+}
