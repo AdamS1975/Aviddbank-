@@ -1,61 +1,54 @@
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-  background-color: #f4f4f4;
+  background-color: #f0f2f5;
+  color: #333;
 }
 
 header {
-  background-color: #002244;
+  background: linear-gradient(to right, #002244, #005792);
   color: white;
-  padding: 1rem;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  margin: 0;
 }
 
 nav a {
-  color: white;
-  margin-right: 1rem;
+  color: #fff;
+  margin-right: 20px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 main {
   padding: 2rem;
 }
 
-.login-container {
-  text-align: center;
-  margin-top: 10vh;
+button {
+  background-color: #005792;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.login-form {
-  display: inline-block;
-  text-align: left;
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
 }
 
-.login-form input {
-  display: block;
-  margin: 1rem 0;
+input, select {
   padding: 0.5rem;
-  width: 200px;
-}
-
-.login-form button {
-  background-color: #002244;
-  color: white;
-  padding: 0.5rem 1rem;
-  border: none;
-  cursor: pointer;
-}
-
-.quick-actions button {
-  margin-right: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: #004488;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.transaction-list {
-  list-style-type: none;
-  padding-left: 0;
+  margin-top: 0.5rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
